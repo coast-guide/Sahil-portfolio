@@ -6,12 +6,15 @@ import Portfolio from './containers/portfolio/index';
 import Resume from './containers/resume/index';
 import Skills from './containers/skills/index';
 import './App.css';
+import Navbar from './components/navBar/index.jsx';
 
 function App() {
   return (
     <div className='App'>
       {/* particls js */}
+
       {/* navbar component */}
+      <Navbar />
       {/* Main page */}
       <Routes>
         {/* Create all routes */}
