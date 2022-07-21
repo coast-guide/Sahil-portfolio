@@ -10,6 +10,7 @@ import Skills from './containers/skills/index';
 import './App.scss';
 import Navbar from './components/navBar/index.jsx';
 import particlesConfig from './helpers/particlesConfig.js';
+import Theme from './components/theme/index.jsx';
 
 function App() {
   const particlesInit = async function (main) {
@@ -33,6 +34,7 @@ function App() {
       </div>
       {/* Main page content*/}
       <div className='App__main-content-wrapper'>
+        <Theme />
         <Routes>
           <Route path='/' index element={<Home />} />
           <Route path='/about' element={<About />} />
