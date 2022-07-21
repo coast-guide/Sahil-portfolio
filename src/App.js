@@ -1,4 +1,6 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
 import About from './containers/about/index.jsx';
 import Contact from './containers/contact/index';
 import Home from './containers/home/index';
@@ -7,12 +9,25 @@ import Resume from './containers/resume/index';
 import Skills from './containers/skills/index';
 import './App.css';
 import Navbar from './components/navBar/index.jsx';
+import particlesConfig from './helpers/particlesConfig.js';
 
 function App() {
+  const particlesInit = async function (main) {
+    await loadFull(main);
+  };
+
+  const location = useLocation();
+  console.log(location);
   return (
     <div className='App'>
       {/* particls js */}
-
+      {location.pathname === '/' && (
+        <Particles
+          id='particles'
+          options={particlesConfig}
+          init={particlesInit}
+        />
+      )}
       {/* navbar component */}
       <Navbar />
       {/* Main page */}
