@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import { FaDatabase, FaReact } from 'react-icons/fa';
-import { SiDjango } from 'react-icons/si';
+import { DiDjango } from 'react-icons/di';
 import { CgCPlusPlus } from 'react-icons/cg';
 import { Animate } from 'react-simple-animate';
 import PageHeaderContent from '../../components/pageHeaderContent';
@@ -73,7 +73,7 @@ function About() {
                 <FaReact size={60} color='var(--selected-theme-main-color)' />
               </div>
               <div>
-                <SiDjango size={60} color='var(--selected-theme-main-color)' />
+                <DiDjango size={120} color='var(--selected-theme-main-color)' />
               </div>
               <div>
                 <FaDatabase
