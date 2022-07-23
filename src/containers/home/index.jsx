@@ -32,10 +32,35 @@ function Home() {
             <a>Download Resume</a>
           </div>
           <div className='contact-me__socials-wrapper'>
-            <FaLinkedin size={32} />
-            <FaTwitter size={32} />
-            <SiGmail size={32} />
-            <FaGithub size={32} />
+            <a
+              href='https://www.linkedin.com/in/sk-sahil/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaLinkedin size={32} />
+            </a>
+
+            <a
+              href='https://twitter.com/SKSAHIL62201281'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaTwitter size={32} />
+            </a>
+            <a
+              href='mailto:sk3577067@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <SiGmail size={32} />
+            </a>
+            <a
+              href='https://github.com/coast-guide'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaGithub size={32} />
+            </a>
           </div>
         </div>
       </Animate>
