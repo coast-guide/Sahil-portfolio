@@ -29,7 +29,13 @@ function Home() {
         <div className='contact-me'>
           <div className='contact-me__buttons-wrapper'>
             <button>Contact me</button>
-            <a>Download Resume</a>
+            <a
+              href='https://www.linkedin.com/in/sk-sahil/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Download Resume
+            </a>
           </div>
           <div className='contact-me__socials-wrapper'>
             <a
