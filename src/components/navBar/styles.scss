@@ -22,6 +22,10 @@
       cursor: pointer;
       font-size: 2rem;
       flex-grow: 1;
+      img {
+        width: 48px;
+        height: 48px;
+      }
     }
 
     &__menu {
