@@ -1,7 +1,7 @@
 export const personalData = [
   {
     label: 'Name',
-    value: 'Sahil',
+    value: 'Sk Sahil',
   },
   {
     label: 'Age',
