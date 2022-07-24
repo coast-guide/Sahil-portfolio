@@ -19,7 +19,7 @@ export const portfolioData = [
   {
     sectionId: 2,
     projectName: 'Portfolio Website',
-    projectLink: '#',
+    projectLink: 'https://zippy-babka-f4ae6f.netlify.app/',
     image: ImageThree,
   },
   {
