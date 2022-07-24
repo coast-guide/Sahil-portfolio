@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
+import { RiProfileFill } from 'react-icons/ri';
 import { navMenus } from './config';
 import './styles.scss';
 
@@ -16,8 +17,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar__container'>
           <Link to='/' className='navbar__container__logo'>
-            {/* <RiProfileFill size={30} /> */}
-            <img src='./favicon.ico' alt='' />
+            <RiProfileFill size={30} />
           </Link>
           <ul
             className={
