@@ -46,11 +46,7 @@ function Home() {
               <FaLinkedin size={32} />
             </a>
 
-            <a
-              href='https://twitter.com/SKSAHIL62201281'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://twitter.com/SKSAHIL62201281/' rel='noreferrer'>
               <FaTwitter size={32} />
             </a>
             <a
