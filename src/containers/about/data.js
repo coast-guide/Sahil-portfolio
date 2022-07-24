@@ -1,7 +1,7 @@
 export const personalData = [
   {
     label: 'Name',
-    value: 'Sk Sahil',
+    value: 'John Doe',
   },
   {
     label: 'Age',
@@ -13,6 +13,6 @@ export const personalData = [
   },
   {
     label: 'Email',
-    value: 'sk3577067@gmail.com',
+    value: 'abcd123@gmail.com',
   },
 ];

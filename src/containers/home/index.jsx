@@ -9,7 +9,7 @@ function Home() {
     <section className='home' id='home'>
       <div className='home__text-wrapper'>
         <h1>
-          Hello, I'm Sk Sahil
+          Hello, I'm John Doe
           <br />
           I'm a Web Developer.
         </h1>
@@ -30,7 +30,7 @@ function Home() {
           <div className='contact-me__buttons-wrapper'>
             <button>Contact me</button>
             <a
-              href='https://www.linkedin.com/in/sk-sahil/'
+              href='https://www.linkedin.com/'
               target='_blank'
               rel='noreferrer'
             >
@@ -39,28 +39,20 @@ function Home() {
           </div>
           <div className='contact-me__socials-wrapper'>
             <a
-              href='https://www.linkedin.com/in/sk-sahil/'
+              href='https://www.linkedin.com/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedin size={32} />
             </a>
 
-            <a href='https://twitter.com/SKSAHIL62201281/' rel='noreferrer'>
+            <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
               <FaTwitter size={32} />
             </a>
-            <a
-              href='mailto:sk3577067@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='mailto:abcd123@gmail.com' target='_blank' rel='noreferrer'>
               <SiGmail size={32} />
             </a>
-            <a
-              href='https://github.com/coast-guide'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://github.com/' target='_blank' rel='noreferrer'>
               <FaGithub size={32} />
             </a>
           </div>

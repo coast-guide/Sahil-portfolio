@@ -18,7 +18,7 @@ const Resume = () => {
         icon={<FaUserGraduate size={40} />}
       />
       <div className='timeline'>
-        {/* <div className='timeline__experience'>
+        <div className='timeline__experience'>
           <h3 className='timeline__experience__header-text'>Experience</h3>
           <VerticalTimeline
             layout='1-column'
@@ -33,7 +33,7 @@ const Resume = () => {
                   color: 'var(--selected-theme-main-color)',
                   border: '1.5px solid var(--selected-theme-main-color)',
                 }}
-                date='2020 - present'
+                date={item.date}
                 iconStyle={{
                   background: '#181818',
                   color: 'var(--selected-theme-main-color)',
@@ -50,7 +50,7 @@ const Resume = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
-        </div> */}
+        </div>
         <div className='timeline__education'>
           <h3 className='timeline__education__header-text'>Education</h3>
           <VerticalTimeline
